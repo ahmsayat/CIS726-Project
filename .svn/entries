@@ -1,0 +1,51 @@
+10
+
+dir
+45
+http://svn.xp-dev.com/svn/platinix-cis726/Projects
+http://svn.xp-dev.com/svn/platinix-cis726
+
+
+
+2009-04-15T18:05:57.298912Z
+45
+luisc
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+c0584e35-d1f0-497c-8483-e0bc56014d0e
+
+cis726.library
+dir
+
+cis726.dataservice
+dir
+
+cis726.warningsystem
+dir
+
+cis726.client
+dir
+
+
+
+delete
+
+cis726.devices
+dir
+
+
+
+delete
+

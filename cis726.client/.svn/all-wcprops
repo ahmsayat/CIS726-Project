@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/platinix-cis726/!svn/ver/163/Projects/cis726.client
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/platinix-cis726/!svn/ver/53/Projects/cis726.client/.classpath
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/platinix-cis726/!svn/ver/53/Projects/cis726.client/.project
+END
+build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/platinix-cis726/!svn/ver/151/Projects/cis726.client/build.xml
+END

@@ -1,0 +1,9 @@
+K 10
+svn:ignore
+V 71
+2009316_63032_devices.log
+2009316_63032_devices.log.lck
+build
+dist
+
+END

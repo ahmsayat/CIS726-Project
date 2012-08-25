@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/platinix-cis726/!svn/ver/130/Projects/cis726.library/src/cis726/jms
+END
+JmsConsumer.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/platinix-cis726/!svn/ver/49/Projects/cis726.library/src/cis726/jms/JmsConsumer.java
+END
+RegisterReplyMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/platinix-cis726/!svn/ver/86/Projects/cis726.library/src/cis726/jms/RegisterReplyMessage.java
+END
+JmsSupport.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/platinix-cis726/!svn/ver/84/Projects/cis726.library/src/cis726/jms/JmsSupport.java
+END
+RegisterMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/platinix-cis726/!svn/ver/86/Projects/cis726.library/src/cis726/jms/RegisterMessage.java
+END
+JmsProducer.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/platinix-cis726/!svn/ver/49/Projects/cis726.library/src/cis726/jms/JmsProducer.java
+END
+DeviceReadingMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/platinix-cis726/!svn/ver/49/Projects/cis726.library/src/cis726/jms/DeviceReadingMessage.java
+END

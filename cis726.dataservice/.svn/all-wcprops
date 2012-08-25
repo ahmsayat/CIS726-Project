@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/platinix-cis726/!svn/ver/161/Projects/cis726.dataservice
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/platinix-cis726/!svn/ver/50/Projects/cis726.dataservice/.classpath
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/platinix-cis726/!svn/ver/45/Projects/cis726.dataservice/.project
+END
+build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/platinix-cis726/!svn/ver/46/Projects/cis726.dataservice/build.xml
+END

@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/platinix-cis726/!svn/ver/160/Projects/cis726.devices/src/cis726/devices
+END
+Device.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/platinix-cis726/!svn/ver/141/Projects/cis726.devices/src/cis726/devices/Device.java
+END
+InputOutputDevice.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/platinix-cis726/!svn/ver/164/Projects/cis726.devices/src/cis726/devices/InputOutputDevice.java
+END
+Registrar.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/platinix-cis726/!svn/ver/164/Projects/cis726.devices/src/cis726/devices/Registrar.java
+END
+Main.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/platinix-cis726/!svn/ver/149/Projects/cis726.devices/src/cis726/devices/Main.java
+END
+TodoDevice.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/platinix-cis726/!svn/ver/119/Projects/cis726.devices/src/cis726/devices/TodoDevice.java
+END
+EkgDevice.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/platinix-cis726/!svn/ver/119/Projects/cis726.devices/src/cis726/devices/EkgDevice.java
+END
+PressureDevice.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/platinix-cis726/!svn/ver/119/Projects/cis726.devices/src/cis726/devices/PressureDevice.java
+END
+PulseDevice.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/platinix-cis726/!svn/ver/119/Projects/cis726.devices/src/cis726/devices/PulseDevice.java
+END
+OxygenDevice.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/platinix-cis726/!svn/ver/119/Projects/cis726.devices/src/cis726/devices/OxygenDevice.java
+END
+RespirationRateDevice.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/platinix-cis726/!svn/ver/119/Projects/cis726.devices/src/cis726/devices/RespirationRateDevice.java
+END
+TemperatureDevice.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/platinix-cis726/!svn/ver/119/Projects/cis726.devices/src/cis726/devices/TemperatureDevice.java
+END

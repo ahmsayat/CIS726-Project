@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/platinix-cis726/!svn/ver/145/Projects/cis726.warningsystem
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/platinix-cis726/!svn/ver/50/Projects/cis726.warningsystem/.classpath
+END
+warning.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/platinix-cis726/!svn/ver/87/Projects/cis726.warningsystem/warning.xsd
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/platinix-cis726/!svn/ver/45/Projects/cis726.warningsystem/.project
+END
+reading.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/platinix-cis726/!svn/ver/45/Projects/cis726.warningsystem/reading.xsd
+END
+properties.properties
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/platinix-cis726/!svn/ver/79/Projects/cis726.warningsystem/properties.properties
+END
+registerwarning.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/platinix-cis726/!svn/ver/80/Projects/cis726.warningsystem/registerwarning.xsd
+END
+unregisterwarning.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/platinix-cis726/!svn/ver/45/Projects/cis726.warningsystem/unregisterwarning.xsd
+END
+scratchpad
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/platinix-cis726/!svn/ver/45/Projects/cis726.warningsystem/scratchpad
+END
+mail.properties
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/platinix-cis726/!svn/ver/60/Projects/cis726.warningsystem/mail.properties
+END
+build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/platinix-cis726/!svn/ver/46/Projects/cis726.warningsystem/build.xml
+END

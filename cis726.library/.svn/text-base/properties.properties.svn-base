@@ -1,0 +1,8 @@
+registerwarningschema=registerwarning.xsd
+unregisterwarningschema=unregisterwarning.xsd
+warningschema=warning.xsd
+readingschema=reading.xsd
+activemqloc=tcp://localhost:61616
+registerchannel=registerDevice
+unregisterchannel=unregisterDevice
+readingschannel=devices

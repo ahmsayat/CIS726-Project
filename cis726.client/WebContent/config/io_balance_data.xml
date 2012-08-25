@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chart>
+	<series>
+		<value xid="Input">Input</value>
+		<value xid="Output">Output</value>
+	</series>
+	<graphs>
+		<graph gid="Solids" title="Solids">
+			<value xid="Input">30</value>
+			<value xid="Output">28</value>			
+		</graph>
+		<graph gid="Liquids" title="Liquids">
+			<value xid="Input">20</value>
+			<value xid="Output">24</value>			
+		</graph>		
+		<graph gid="Intravenous" title="Intravenous">
+			<value xid="Input">5</value>
+			<value xid="Output">0</value>
+		</graph>		    		
+	</graphs>
+</chart>

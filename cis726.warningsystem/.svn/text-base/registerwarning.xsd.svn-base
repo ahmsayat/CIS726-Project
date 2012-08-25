@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="device">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="id" maxOccurs="1" minOccurs="1"/>
+        <xs:element ref="owner" maxOccurs="1" minOccurs="1"/>
+        <xs:element ref="warnings" maxOccurs="1" minOccurs="1"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="id" type="xs:integer"/>
+  <xs:element name="owner" type="xs:string"/>
+  <xs:element name="warnings">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="warning"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="warning">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="type" maxOccurs="1" minOccurs="1"/>
+        <xs:element ref="value" maxOccurs="1" minOccurs="1" />
+        <xs:element ref="frequency" maxOccurs="1" minOccurs="1"/>
+        <xs:element ref="contacts" maxOccurs="1" minOccurs="1"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:simpleType name="warningtype">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="above"/>
+      <xs:enumeration value="below"/>
+      <xs:enumeration value="trend"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="type" type="warningtype"/>
+  <xs:element name="value" type="xs:float"/>
+  <xs:element name="frequency" type="xs:integer"/>
+  <xs:element name="contacts">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="contact"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="contact">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="name" maxOccurs="1" minOccurs="1"/>
+        <xs:element ref="relation" maxOccurs="1" minOccurs="1" />
+        <xs:element ref="channel" maxOccurs="1" minOccurs="0"/>
+        <xs:element ref="mail" maxOccurs="1" minOccurs="0"/>
+        <xs:element ref="phone" maxOccurs="1" minOccurs="0"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:simpleType name="relationtype">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="gui"/>
+      <xs:enumeration value="nurse"/>
+      <xs:enumeration value="doctor"/>
+      <xs:enumeration value="other"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="name" type="xs:string"/>
+  <xs:element name="relation" type="xs:string"/>
+  <xs:element name="channel" type="xs:string"/>
+  <xs:element name="mail" type="xs:string"/>
+  <xs:element name="phone" type="xs:string"/>
+</xs:schema>

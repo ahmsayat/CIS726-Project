@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/platinix-cis726/!svn/ver/157/Projects/cis726.client/src/cis726/web/manager
+END
+IOManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/platinix-cis726/!svn/ver/156/Projects/cis726.client/src/cis726/web/manager/IOManager.java
+END
+Controller.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/platinix-cis726/!svn/ver/157/Projects/cis726.client/src/cis726/web/manager/Controller.java
+END
+PulseManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/platinix-cis726/!svn/ver/53/Projects/cis726.client/src/cis726/web/manager/PulseManager.java
+END
+PressureManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/platinix-cis726/!svn/ver/90/Projects/cis726.client/src/cis726/web/manager/PressureManager.java
+END
+OxygenManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/platinix-cis726/!svn/ver/146/Projects/cis726.client/src/cis726/web/manager/OxygenManager.java
+END
+TemperatureManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/platinix-cis726/!svn/ver/90/Projects/cis726.client/src/cis726/web/manager/TemperatureManager.java
+END
+RespirationManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/platinix-cis726/!svn/ver/90/Projects/cis726.client/src/cis726/web/manager/RespirationManager.java
+END

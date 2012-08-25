@@ -1,0 +1,25 @@
+<?xml version ="1.0" encoding="UTF-8"?>
+<chart>
+<series>
+<value xid="0">0</value>
+<value xid="1">1</value>
+<value xid="2">2</value>
+<value xid="3">3</value>
+<value xid="4">4</value>
+<value xid="5">5</value>
+<value xid="6">6</value>
+<value xid="7">7</value>
+</series>
+<graphs>
+<graph gid = "1">
+<value xid="0">0</value>
+<value xid="1">2</value>
+<value xid="2">3</value>
+<value xid="3">5</value>
+<value xid="4">4</value>
+<value xid="5">6</value>
+<value xid="6">5</value>
+<value xid="7">5</value>
+</graph>
+</graphs>
+</chart>

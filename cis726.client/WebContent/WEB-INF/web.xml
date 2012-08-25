@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app id="WebApp_ID" version="2.4"
+	xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+	<display-name>cis726.client</display-name>
+
+	<!--
+		Configuration file for web application
+		Author: Luis Carranco.
+		This configuration is to set up JMS communication using AjaxServelt.
+	-->
+
+	<!-- ActiveMQ connection for AJAX -->
+	<context-param>
+		<param-name>org.apache.activemq.brokerURL</param-name>
+		<param-value>tcp://localhost:61616</param-value>
+	</context-param>
+	<context-param>
+		<param-name>org.apache.activemq.embeddedBroker</param-name>
+		<param-value>false</param-value>
+	</context-param>
+
+	<!-- The subscription Ajax servlet -->
+	<servlet>
+		<servlet-name>AjaxServlet</servlet-name>
+		<servlet-class>org.apache.activemq.web.AjaxServlet</servlet-class>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AjaxServlet</servlet-name>
+		<url-pattern>/amq/*</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>MessageServlet</servlet-name>
+		<servlet-class>org.apache.activemq.web.MessageServlet</servlet-class>
+		<load-on-startup>1</load-on-startup>
+		<!--
+			Uncomment this parameter if you plan to use multiple consumers over
+			REST <init-param> <param-name>destinationOptions</param-name>
+			<param-value>consumer.prefetchSize=1</param-value> </init-param>
+		-->
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>MessageServlet</servlet-name>
+		<url-pattern>/message/*</url-pattern>
+	</servlet-mapping>
+
+	<!--
+		Uncomment this when deploy in jetty webserver This is to support in
+		jetty to override files (to create data_init.xml files for charts)
+	-->
+	<!--
+	<servlet>
+		<servlet-name>default</servlet-name>
+		<servlet-class>org.mortbay.jetty.servlet.DefaultServlet</servlet-class>
+		<init-param>
+			<param-name>useFileMappedBuffer</param-name>
+			<param-value>false</param-value>
+		</init-param>
+		<load-on-startup>0</load-on-startup>
+	</servlet>
+	-->
+
+	<filter>
+		<filter-name>session</filter-name>
+		<filter-class>org.apache.activemq.web.SessionFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>session</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+		<welcome-file>index.htm</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>default.html</welcome-file>
+		<welcome-file>default.htm</welcome-file>
+		<welcome-file>default.jsp</welcome-file>
+	</welcome-file-list>
+</web-app>

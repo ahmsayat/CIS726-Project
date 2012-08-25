@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/platinix-cis726/!svn/ver/136/Projects/cis726.devices/src/cis726/devices/test
+END
+Main.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/platinix-cis726/!svn/ver/136/Projects/cis726.devices/src/cis726/devices/test/Main.java
+END
+EkgDeviceTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/platinix-cis726/!svn/ver/119/Projects/cis726.devices/src/cis726/devices/test/EkgDeviceTest.java
+END
+PressureDeviceTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/platinix-cis726/!svn/ver/136/Projects/cis726.devices/src/cis726/devices/test/PressureDeviceTest.java
+END
+PulseDeviceTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/platinix-cis726/!svn/ver/119/Projects/cis726.devices/src/cis726/devices/test/PulseDeviceTest.java
+END
+OxygenDeviceTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/platinix-cis726/!svn/ver/136/Projects/cis726.devices/src/cis726/devices/test/OxygenDeviceTest.java
+END
+RespirationRateDeviceTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/platinix-cis726/!svn/ver/136/Projects/cis726.devices/src/cis726/devices/test/RespirationRateDeviceTest.java
+END
+TemperatureDeviceTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/platinix-cis726/!svn/ver/119/Projects/cis726.devices/src/cis726/devices/test/TemperatureDeviceTest.java
+END
